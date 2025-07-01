@@ -5,8 +5,13 @@ import { useState } from 'react';
 export default function SearchBox({updateInfo}){
     let [city,setCity]= useState("");
     let [error,setError] = useState(false);
+<<<<<<< HEAD
     const API_URL = import.meta.env.VITE_API_URL;
     const API_KEY = import.meta.env.VITE_API_KEY;
+=======
+    const API_URL = YOUR_API_URL;
+    const API_KEY = YOUR_API_KEY;
+>>>>>>> 2f01f68639092bcca0d62924e39ea1b7517ad7b4
 
     let getWeatherInfo = async () => {
         try{
